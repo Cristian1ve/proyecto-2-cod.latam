@@ -167,7 +167,7 @@ section#contacto {
 }
 
 footer {
-    margin: 0px;
+    margin: 10px;
     background-color: aquamarine;
     height: 10vh;
 }
@@ -192,15 +192,20 @@ footer {
         text-align: left;
     }
 
-    ul#contac-links li {
-        margin: 32px;
+    div
+        {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px;
+            min-height: 80px;
+            width: 32%;
     }
 }
 
 li.menu-item:hover,
-li.menu-item a.active,
 a.btn:hover {
-    background: rgba(65, 211, 211, 0.678);
+    background: rgba(35, 190, 218, 0.884);
     transition: background-color 0.3s;
     }
 
