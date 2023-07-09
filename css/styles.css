@@ -2,7 +2,7 @@
 
 /* Fonts */
 /* Importar aquí la font */
-font-family: 'Lato', sans-serif;
+font-family: 'lato', sans-sherif;
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
 */
@@ -167,9 +167,12 @@ section#contacto {
 }
 
 footer {
-    margin: 10px;
+    margin: 0px;
     background-color: aquamarine;
     height: 10vh;
+    body.change-font {
+    font-family: 'Courier New', Courier, monospace;
+}
 }
 
 @media (min-width: 1024px) {
@@ -199,16 +202,17 @@ footer {
             align-items: center;
             padding: 8px;
             min-height: 80px;
-            width: 32%;
+            width: 64%;
     }
 }
 
 li.menu-item:hover,
+li.menu item a.active,
 a.btn:hover {
     background: rgba(35, 190, 218, 0.884);
     transition: background-color 0.3s;
-    }
-
-body.change-font {
-    font-family: 'Courier New', Courier, monospace;
+ }
+ 
+ body.change-font {
+    font-family:'';
 }
